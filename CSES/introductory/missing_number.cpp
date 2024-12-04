@@ -14,7 +14,7 @@ int main() {
     cin >> n;
 
     ll num = 0, sum = 0;
-    ll expected_sum = 0.5 * n * (n + 1);
+    ll expected_sum = 0.5 * n * (n + 1); // Gauss summation
 
     // Read all input and sum
     for (ll idx = 0; idx < n - 1; idx++) {
